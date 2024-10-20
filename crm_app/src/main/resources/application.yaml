@@ -1,0 +1,12 @@
+server:
+  port: 8089
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crm
+    username: crm
+    password: crm
+  flyway:
+    enabled: true
+    locations:
+      - db.migration
